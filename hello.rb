@@ -50,3 +50,7 @@ elsif apple == "長野"
 else
   puts "このりんごは青森県産でも長野県産でもありません"
 end
+
+puts "キーボードから入力"
+input_keys = gets
+puts "入力されたのは#{input_keys}です"
