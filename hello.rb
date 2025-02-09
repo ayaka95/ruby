@@ -54,3 +54,28 @@ end
 puts "キーボードから入力"
 input_keys = gets
 puts "入力されたのは#{input_keys}です"
+
+dice = 0
+while dice != 6 do
+  dice = rand(1..6)
+  puts dice
+end
+
+for i in 1..6 do
+  puts i
+end
+
+amounts = {"リンゴ"=>2, "いちご"=>5, "オレンジ"=>3}
+amounts.each do |fruit, amount|
+  puts "#{fruit}は#{amount}個です"
+end
+
+o = 1
+while o <= 10 do
+  if o == 5
+    puts "処理を終了する"
+    break
+  end
+  puts o
+  o += 1
+end
